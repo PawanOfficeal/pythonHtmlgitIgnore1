@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 80vh;
+}
+.changeBGmain{
+    background-color: rgb(158, 158, 235);
+}
