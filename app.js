@@ -1,5 +1,7 @@
-let button = document.querySelector('.btn1');
-let body = document.querySelector('.main');
-button.addEventListener('click', ()=>{
-    body.classList.add('changeBGbody');
+const button = document.getElementById('btn1');
+const main = document.getElementById('main');
+button.addEventListener('click', function (){
+    
+    main.classList.toggle('abcd');
+    //main.style.backgroundColor = 'blue';
 })
